@@ -1,0 +1,13 @@
+import React from "react";
+import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
+
+const Shop = () => {
+  return (
+    <div style={{ display: "flex" }}>
+      <AddShoppingCartIcon sx={{ color: "red" }} />
+      <span style={{ color: "white" }}>0</span>
+    </div>
+  );
+};
+
+export default Shop;
